@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T03:20:45.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sk7KUClNS1sZJzAGCZVc" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T03:43:04.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yCfsds_ksRat5jmSDxXw" version="22.1.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -16,14 +16,14 @@
         <mxCell id="xoRC-sKZlT8HCeLA9iw_-34" value="普&lt;br&gt;通&lt;br&gt;购&lt;br&gt;买" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xoRC-sKZlT8HCeLA9iw_-8">
           <mxGeometry x="40.5" y="490" width="15" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xoRC-sKZlT8HCeLA9iw_-35" value="自&lt;br&gt;动&lt;br&gt;续&lt;br&gt;费" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xoRC-sKZlT8HCeLA9iw_-8">
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-35" value="自&lt;br&gt;动&lt;br&gt;扣&lt;br&gt;费" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xoRC-sKZlT8HCeLA9iw_-8">
           <mxGeometry x="40.5" y="620" width="15" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xoRC-sKZlT8HCeLA9iw_-10" value="体育支付后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="270" y="80" width="100" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="xoRC-sKZlT8HCeLA9iw_-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xoRC-sKZlT8HCeLA9iw_-10">
-          <mxGeometry x="44.5" y="59" width="10" height="80" as="geometry" />
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-19" value="支&lt;br&gt;付&lt;br&gt;后&lt;br&gt;台" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xoRC-sKZlT8HCeLA9iw_-10">
+          <mxGeometry x="44.5" y="61" width="15.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xoRC-sKZlT8HCeLA9iw_-36" value="订&lt;br&gt;单&lt;br&gt;验&lt;br&gt;证" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xoRC-sKZlT8HCeLA9iw_-10">
           <mxGeometry x="42.5" y="490" width="15" height="80" as="geometry" />
@@ -102,15 +102,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoRC-sKZlT8HCeLA9iw_-38" value="1.通过下单接口的订单参数+&lt;br&gt;Apple返回的接口参数发起验单请求&lt;br&gt;（参数说明见备注）&lt;br&gt;接口：/app/payAction/appleVerify" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-38" value="4.通过下单接口的订单参数+&lt;br&gt;Apple返回的接口参数发起验单请求&lt;br&gt;（参数说明见备注）&lt;br&gt;接口：/app/payAction/appleVerify" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0023" width="60" relative="1" as="geometry">
             <mxPoint x="99" y="596" as="sourcePoint" />
             <mxPoint x="315" y="596" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoRC-sKZlT8HCeLA9iw_-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;备注说明&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;1.用户每次下单前，客户端都会检查本本地是否有未验证成功的订单缓存，如果有 会alert用户继续验证还是放弃（保存在KeyChain中 不受重新安装的影响&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;br&gt;2.&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;验单请求参数说明&lt;br&gt;订单接口下发参数包含:(paySn、orderId、productIds、appleProductId&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Apple接口返回参数包含:(thirdNo、verifySignature、oriTransactionId&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="770" y="590" width="220" height="220" as="geometry" />
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;备注说明&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;特殊逻辑&lt;br&gt;&amp;nbsp;1.用户每次下单前，客户端都会检查本本地是否有未验证成功的订单缓存，如果有 会alert用户继续验证还是放弃（保存在KeyChain中 不受重新安装的影响&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;br&gt;2.每次用户冷启动的时候也会去检查是否有cache的订单信息 调用&lt;/span&gt;/app/payAction/favourable 上传给后台&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;验单请求参数说明&lt;br&gt;订单接口下发参数包含:(paySn、orderId、productIds、appleProductId&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Apple接口返回参数包含:(thirdNo、verifySignature、oriTransactionId&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="530" width="220" height="284" as="geometry" />
         </mxCell>
         <mxCell id="xoRC-sKZlT8HCeLA9iw_-40" value="成功：订单结束&lt;br&gt;失败：2秒后发起验单重试，最多重试5次" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -118,8 +118,12 @@
             <mxPoint x="96" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoRC-sKZlT8HCeLA9iw_-42" value="SKPaymentTransactionStateRestored" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="740" width="240" height="40" as="geometry" />
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-43" value="app内监听 Apple自动扣完钱了&lt;br&gt;SKPaymentTransactionStateRestored&lt;br&gt;接口：/app/payAction/appleVerify &lt;br&gt;接口返回后没有验单重试机制" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0047" width="60" relative="1" as="geometry">
+            <mxPoint x="101" y="720" as="sourcePoint" />
+            <mxPoint x="312" y="721" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
