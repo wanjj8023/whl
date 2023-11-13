@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T02:58:25.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Jm9CxYWbCrNyvMrDygWM" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T03:20:45.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sk7KUClNS1sZJzAGCZVc" version="22.1.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -108,6 +108,18 @@
             <mxPoint x="315" y="596" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;备注说明&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;1.用户每次下单前，客户端都会检查本本地是否有未验证成功的订单缓存，如果有 会alert用户继续验证还是放弃（保存在KeyChain中 不受重新安装的影响&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;br&gt;2.&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;验单请求参数说明&lt;br&gt;订单接口下发参数包含:(paySn、orderId、productIds、appleProductId&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Apple接口返回参数包含:(thirdNo、verifySignature、oriTransactionId&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="590" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-40" value="成功：订单结束&lt;br&gt;失败：2秒后发起验单重试，最多重试5次" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="640.08" as="sourcePoint" />
+            <mxPoint x="96" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoRC-sKZlT8HCeLA9iw_-42" value="SKPaymentTransactionStateRestored" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="740" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
